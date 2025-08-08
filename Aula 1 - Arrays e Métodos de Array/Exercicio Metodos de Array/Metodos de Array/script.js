@@ -118,7 +118,7 @@ function executarReduce() {
   const array = [1, 2, 3, 4];
   const resultado = array.reduce((totalAcumulado, valorAtual) => {
     return totalAcumulado + valorAtual
-  });
+  }, 0);
   document.getElementById('resultado-reduce').textContent = resultado;
 }
 
